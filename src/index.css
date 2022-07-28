@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(0,0,0,.9);
+  border-bottom: 1px solid #565387;
+  font-weight: bold;
+}
+
+/* Home */
+.aling{
+  text-align: left;
+  padding-top: 7%;
+}
+.tittel{
+  font-size: x-large;
+}
+.n_color{
+  color: aqua;
+}
+.img-size{
+  width: 85%;
+}
+.btn{
+  border:1px solid aqua !important;
+  color: aqua !important;
+  border-radius: 50px !important;
+  background-color: none !important;
+}
+.btn:hover{
+  color: white !important;
+  background-color: aqua !important;
+}
+.btn-outline-primary.active{
+  background-color: none !important;
+}
+.p-s{
+  padding-top: 8%;
+}
